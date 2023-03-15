@@ -57,4 +57,4 @@ RUN apk upgrade --update \
  && apk search --update
 
 # Specify the command to run when the container starts
-CMD ["node", ""]
+CMD ["/bin/sh"]
